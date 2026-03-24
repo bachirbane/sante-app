@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(222, 227, 238);
+    
+}
+
+.logo{
+    color: rgb(89, 89, 197);
+    border: 2px solid rgb(184, 184, 230);
+    padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    
+   
+}
+.header-log{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 220, 245);
+    box-shadow: 50px 10px 50px 10px rgb(243, 242, 242);
+    padding: 1%;
+   margin: 1%;
+
+}
+
+.menu-log{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+}
+.menu-log li a{
+    text-decoration: none;
+     color: rgb(99, 99, 243);
+    position: relative;
+    right: 15px;
+     font-size: larger;
+     font-weight: bold;
+}
+
+.form{
+    background-color: white;
+    width: 35%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+   border-radius: 30px;
+   box-shadow: 5px 0px 0px 5px rgb(189, 173, 173);
+  
+   
+   
+}
+.h-1-form{
+    text-align: center;
+    color: royalblue
+   
+}
+.form-label{
+    
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+  
+   
+}
+.input-nom{
+    
+    width: 75%;
+    padding: 4px;
+    background-color: rgb(222, 227, 238);
+    border: royalblue 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 1.2rem;
+   
+}
+.submit-form{
+    display: flex;
+    justify-content: center;
+}
+.submit-formb{
+    background-color: royalblue;
+    width: 40%;
+  padding: 5px;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 4px 8px black;
+  margin-top: -20px;
+}

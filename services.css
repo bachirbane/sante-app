@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+     background-color: rgb(222, 227, 238);
+     
+}
+
+
+
+
+.header--log{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 220, 245);
+    box-shadow: 50px 10px 50px 10px rgb(243, 242, 242);
+    padding: 1%;
+   margin: 1%;
+}
+
+.logo{
+    color: rgb(89, 89, 197);
+    border: 2px solid rgb(184, 184, 230);
+    padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+    
+   
+}
+.infor-i{
+    
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(rgb(240, 176, 176), rgb(165, 165, 228) , rgb(214, 175, 103));
+}
+
+.information{
+   
+    font-size: 3rem;
+    text-align: center;
+   margin-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+h5 a{
+    text-decoration: none ;
+}
+.menu-log{
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    list-style: none;
+    
+    
+}
+
+
+.menu-log li a{
+    text-decoration: none;
+     color: rgb(99, 99, 243);
+    position: relative;
+    right: 15px;
+     font-size: larger;
+     font-weight: bold;
+}
+
+.services-app h4{
+padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid white
+}
+
+
+.services-app{
+   
+    
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex-wrap: wrap;
+   grid-template-rows: 300px 300px 300px 300px  ;
+    gap: 25px;
+   height: 50vh;
+    
+   
+    
+    
+    
+}
+ .services-app4:hover {
+    transform: scale(1.05);
+    background: royalblue;
+}
+.services-app1:hover {
+    transform: scale(1.05);
+ background: royalblue;}
+.services-app2:hover{
+        transform: scale(1.05);
+         background: royalblue;
+    }
+    .services-app3:hover{
+         background: rgb(105, 120, 165);
+        transform: scale(1.05)
+    }
+   
+
+  .services-app1{
+   
+  background-color: rgb(87, 148, 87);
+   box-shadow: 0px 10px 25px 1px rgb(72, 73, 73);
+   
+}
+ 
+
+.services-app2{
+   
+  background-color: rgb(101, 146, 143);
+    box-shadow: 0px 10px 25px 1px rgb(72, 73, 73);
+   
+}
+
+.services-app3{
+    background-color: rgb(103, 136, 179);
+   box-shadow: 0px 10px 25px 1px rgb(72, 73, 73);
+
+   
+}
+
+.services-app4{
+     box-shadow: 0px 10px 25px 1px rgb(72, 73, 73);
+    background-color: rgb(194, 162, 122)
+
+    
+} 
+
+.dossier1{
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.btn1{
+
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dossier1{
+    border: none;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-dossier1:hover{
+    background-color: white;
+    color: royalblue;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    transform: scale(1.05);
+    border-radius: 25px;
+}
+.dossier2{
+    
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+.dossier3{
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.dossier4{
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+
+
+@media(max-width: 576px){
+    .services-app{
+      display: flex;
+     flex-direction: column;
+      
+    }
+    
+    .services-app1 , .services-app2, .services-app3, .services-app4{
+   
+  
+     border: none;
+     margin: 2%;
+     padding: 4%;
+}
+.logo{
+    border: none;
+    padding: 4px;
+    font-size: x-small;
+    background-color: rgb(222, 227, 238);
+  text-decoration: none;
+  position: relative;
+  top: -25px;
+ padding-left: 10px;
+}
+}
+
+
+
+@media(max-width: 992px){
+    .services-app{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 300px 300px 300px 300px;
+      gap: 35px;
+      
+    }   
+    
+    h4{
+    font-size: x-large;
+    }
+    .btn1{
+        padding: 10px;
+        margin: 4%;
+       
+    }
+    .btn-dossier1{
+        padding: 10px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .logo{
+        font-size: 10px;
+        padding: 10px;
+       text-decoration: none;
+    }
+    .menu-log {
+        font-size: 1rem;
+        
+    }
+    .dossier1, .dossier2, .dossier3, .dossier4{
+        font-size: x-large;
+    }
+    
+     
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 25px;
+   width: 100%;
+   height: 10vh;
+   background-color: rgb(202, 208, 247);
+   margin-top: 100px;
+  
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(3, 55, 212);
+    font-size: small;
+    padding: 25px;
+}
